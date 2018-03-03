@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:FormsPasscodeSample"
+    x:Class="FormsPasscodeSample.FormsPasscodeSamplePage"
+    BackgroundColor="White">
+    <ContentPage.Content>
+        <Grid Margin="20,20,20,40">
+            <Grid.RowDefinitions>  
+                <RowDefinition Height="1*" />  
+                <RowDefinition Height="1*" />  
+                <RowDefinition Height="*" /> 
+                <RowDefinition Height="*" />  
+                <RowDefinition Height="*" />  
+                <RowDefinition Height="*" /> 
+            </Grid.RowDefinitions>  
+            <Grid.ColumnDefinitions>  
+                <ColumnDefinition Width="*" />  
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" /> 
+            </Grid.ColumnDefinitions>
+            <Label Text="Enter your PIN" 
+                VerticalOptions="End" 
+                HorizontalOptions="Center"
+                Grid.ColumnSpan="3"
+                FontSize="30"
+                TextColor="Black"
+                FontAttributes="Bold"/>
+            <StackLayout Orientation="Horizontal" Grid.Row="1"
+                Grid.ColumnSpan="3" HorizontalOptions="Center">
+                <Image x:Name="img1" IsEnabled="false" Source="ic_circle_lock"/>
+                <Image x:Name="img2" IsEnabled="false" Source="ic_circle_lock"/>
+                <Image x:Name="img3" IsEnabled="false" Source="ic_circle_lock"/>
+                <Image x:Name="img4" IsEnabled="false" Source="ic_circle_lock"/>
+                <Image x:Name="img5" IsEnabled="false" Source="ic_circle_lock"/>
+                <Image x:Name="img6" IsEnabled="false" Source="ic_circle_lock"/>
+            </StackLayout>
+            <Button x:Name="btn1" Clicked="PasscodeButton_Clicked" Image="ic_circle_1.png" Grid.Row="2"/>
+            <Button x:Name="btn2" Clicked="PasscodeButton_Clicked" Image="ic_circle_2.png" Grid.Row="2" Grid.Column="1"/>
+            <Button x:Name="btn3" Clicked="PasscodeButton_Clicked" Image="ic_circle_3.png" Grid.Row="2" Grid.Column="2"/>
+            <Button x:Name="btn4" Clicked="PasscodeButton_Clicked" Image="ic_circle_4.png" Grid.Row="3"/>
+            <Button x:Name="btn5" Clicked="PasscodeButton_Clicked" Image="ic_circle_5.png" Grid.Row="3" Grid.Column="1"/>
+            <Button x:Name="btn6" Clicked="PasscodeButton_Clicked" Image="ic_circle_6.png" Grid.Row="3" Grid.Column="2"/>
+            <Button x:Name="btn7" Clicked="PasscodeButton_Clicked" Image="ic_circle_7.png" Grid.Row="4"/>
+            <Button x:Name="btn8" Clicked="PasscodeButton_Clicked" Image="ic_circle_8.png" Grid.Row="4" Grid.Column="1"/>
+            <Button x:Name="btn9" Clicked="PasscodeButton_Clicked" Image="ic_circle_9.png" Grid.Row="4" Grid.Column="2"/>
+            <Button x:Name="btnClear" Clicked="PasscodeButton_Clicked" Image="ic_circle_clear.png" Grid.Row="5"/>
+            <Button x:Name="btn0" Clicked="PasscodeButton_Clicked" Image="ic_circle_0.png" Grid.Row="5" Grid.Column="1"/>
+            <Button x:Name="btnBack" Clicked="PasscodeButton_Clicked" Image="ic_circle_back.png" Grid.Row="5" Grid.Column="2"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

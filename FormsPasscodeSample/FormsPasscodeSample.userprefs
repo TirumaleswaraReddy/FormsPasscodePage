@@ -1,0 +1,12 @@
+﻿<Properties StartupConfiguration="{BAAEACD6-FF1A-478A-975F-D950862FC973}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FormsPasscodeSample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.29F37C81-0B48-4EC4-B731-82B63B430703">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.FormsPasscodeSample.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>
